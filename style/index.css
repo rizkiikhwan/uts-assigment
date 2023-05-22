@@ -1,0 +1,134 @@
+body {
+    background-color: rgba(255, 228, 196, 0.214);
+    margin: 0;
+}
+
+header {
+    border-bottom: 2px gray solid;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color:ghostwhite;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    margin-right: 10px;
+}
+
+nav {
+    padding: 0 10px;
+    flex: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 15px;
+    margin: 0px 5px;
+    font-size: 17px;
+    color: black;
+    background-color:rgb(233, 233, 253);
+}
+
+nav ul li a:hover {
+    transition: 0.3s;
+    background-color:rgb(194, 194, 246);
+}
+
+.searching-bar {
+    margin: 0 10px;
+}
+
+.searching-bar input[type=search] {
+    padding: 5px 8px;
+    border-radius: 8px;
+    border: 1px black solid;
+    background-color:rgb(243, 243, 250);
+}
+
+.searching-bar button[type=submit] {
+    padding: 5px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px black solid;
+    background-color:rgb(243, 243, 250);
+}
+
+.searching-bar button[type=submit]:hover {
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.header-right {
+    padding: 0 0 0 10px;
+
+}
+
+.header-right button {
+    background-color:rgb(233, 233, 253);
+    border: none;
+    padding: 10px 0;
+    border-radius: 15px;
+    margin: 0px 5px;
+
+}
+
+button a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 16px;
+    color: black;
+    border-radius: 15px;
+
+}
+
+button a:hover {
+    transition: 0.3s;
+    background-color:rgb(194, 194, 246);
+}
+
+
+
+
+footer {
+    border-top: 2px gray solid;
+    display: flex;
+    height: 200px;
+    background-color:ghostwhite;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+.about-me, .link-sosmed {
+    flex: 1;
+}
+
+.about-me {
+    padding: 0 20px 0 30px;
+}
+
+.link-sosmed {
+    text-align: center;
+    border-left: 2px gray solid;
+
+}
+
+.link-sosmed a {
+    text-decoration: none;
+    margin: 0 10px;
+}

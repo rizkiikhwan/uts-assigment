@@ -1,0 +1,50 @@
+header {
+  margin: 0;
+}
+
+.top-main-content {
+  padding: 100px;
+  text-align: center;
+  background:linear-gradient(ghostwhite, rgba(255, 228, 196, 0.214));
+  border-bottom: 2px gray solid;
+
+}
+
+.top-main-content h1 {
+  font-size: 40px;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-content h2 {
+  font-size: 30px;
+}
+
+.main-content p {
+  text-align:left;
+  font-size: 18px;
+}
+
+.main-content .section1 {
+  margin: 10px 440px;
+}
+
+.main-content .section2 {
+  margin: 10px 350px;
+}
+
+.main-content .section3 {
+  margin: 10px 410px;
+}
+
+.google-maps {
+  border-top: 2px gray solid;
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+
+h3 {
+  font-size: 25px;
+}
