@@ -39,6 +39,19 @@ header {
   margin: 10px 410px;
 }
 
+.mini-game-guess {
+  display: flex;
+  justify-content: center;
+}
+
+.mini-game-box {
+  border: 2px rgb(176, 176, 231) solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px 0 10px 0;
+  background-color: cornsilk;
+}
+
 .google-maps {
   border-top: 2px gray solid;
   text-align: center;
@@ -48,3 +61,4 @@ header {
 h3 {
   font-size: 25px;
 }
+
